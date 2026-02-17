@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>ErikSon Message for WhatsApp (beta)</title>
+    <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-Message-Releases/main/appcast-beta.xml</link>
+    <description>Updates for ErikSon Message for WhatsApp</description>
+    <item>
+      <title>Version 1.0.1-beta.1</title>
+      <pubDate>Tue, 17 Feb 2026 22:50:31 +0000</pubDate>
+      <sparkle:version>202602172350</sparkle:version>
+      <sparkle:shortVersionString>1.0.1-beta.1</sparkle:shortVersionString>
+      <sparkle:channel>beta</sparkle:channel>
+      <description><![CDATA[<h3>Added</h3>
+<ul>
+<li>Automated deploy workflow with version bumping</li>
+<li>Changelog system for tracking release notes</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Appcast now accumulates version history for richer update dialogs</li>
+<li>GitHub Releases now include full release notes</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/ErikSonTech/ErikSon-Message-Releases/releases/download/v1.0.1-beta.1-beta/ErikSon.Message-1.0.0-stable.zip"
+        sparkle:edSignature="yu/y1WJs1Irk4RZoxXcGoxK580WcPFvPlgjl2mgFwIp74wJxiVT18U0WnuBq13fTbkKdiW10w5/RjJ1v9eGFCQ=="
+        length="5033522"
+        type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
