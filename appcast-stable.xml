@@ -7,6 +7,23 @@
     <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-DeskChat-Releases/main/appcast-stable.xml</link>
     <description>Updates for DeskChat for WhatsApp</description>
     <item>
+      <title>Version 1.0.9</title>
+      <pubDate>Mon, 23 Feb 2026 20:03:34 +0000</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Added</h3>
+<h3>Changed</h3>
+<h3>Fixed</h3>
+<ul>
+<li>Fixed Sparkle always reporting a new update available even when the app is up to date — sparkle:version in the appcast now uses the sequential build number matching CFBundleVersion instead of a timestamp</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/ErikSonTech/ErikSon-DeskChat-Releases/releases/download/v1.0.9/DeskChat-1.0.9-stable.zip"
+        sparkle:edSignature="K5ICoA8eoGyl0Xsdx47tqw2DxqKNHea/K0b6Lxi1hcuFFjLgiqr7TOnoVn/z9GSjFTBsqdMcfnqdbTOTEIXlCg=="
+        length="7304570"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.8</title>
       <pubDate>Mon, 23 Feb 2026 19:55:55 +0000</pubDate>
       <sparkle:version>202602232055</sparkle:version>
