@@ -7,6 +7,33 @@
     <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-DeskChat-Releases/main/appcast-beta.xml</link>
     <description>Updates for DeskChat for WhatsApp</description>
     <item>
+      <title>Version 1.0.8-beta.1</title>
+      <pubDate>Mon, 23 Feb 2026 18:23:47 +0000</pubDate>
+      <sparkle:version>202602231923</sparkle:version>
+      <sparkle:shortVersionString>1.0.8-beta.1</sparkle:shortVersionString>
+      <sparkle:channel>beta</sparkle:channel>
+      <description><![CDATA[<h3>Added</h3>
+<ul>
+<li>Architecture overhaul: coordinator pattern, DI protocols, dedicated ViewModels</li>
+<li>Full rebrand to DeskChat with storage key migration</li>
+<li>New test suites for all coordinators</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>URL scheme updated to deskchat://</li>
+<li>Removed unused SocketIO dependency</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Storage key consistency with automatic migration</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/ErikSonTech/ErikSon-DeskChat-Releases/releases/download/v1.0.8-beta.1-beta/DeskChat-1.0.8-beta.1-beta.zip"
+        sparkle:edSignature="MomtipCH5Qb7mPIpybQciH5gOBF5P1xtGlC63ABvWsRt6P4mGvuuvY/TOGrA8LnhHDywjU8NmH2537N9P24AAg=="
+        length="7301734"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.7-beta.1</title>
       <pubDate>Mon, 23 Feb 2026 16:29:18 +0000</pubDate>
       <sparkle:version>202602231729</sparkle:version>
