@@ -4,8 +4,26 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>DeskChat for WhatsApp (beta)</title>
-    <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-Message-Releases/main/appcast-beta.xml</link>
+    <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-DeskChat-Releases/main/appcast-beta.xml</link>
     <description>Updates for DeskChat for WhatsApp</description>
+    <item>
+      <title>Version 1.0.6-beta.1</title>
+      <pubDate>Mon, 23 Feb 2026 16:06:02 +0000</pubDate>
+      <sparkle:version>202602231706</sparkle:version>
+      <sparkle:shortVersionString>1.0.6-beta.1</sparkle:shortVersionString>
+      <sparkle:channel>beta</sparkle:channel>
+      <description><![CDATA[<h3>Added</h3>
+<ul>
+<li>Beta channel build with updated release repository URLs</li>
+</ul>
+<h3>Changed</h3>
+<h3>Fixed</h3>]]></description>
+      <enclosure
+        url="https://github.com/ErikSonTech/ErikSon-DeskChat-Releases/releases/download/v1.0.6-beta.1-beta/DeskChat-1.0.6-beta.1-beta.zip"
+        sparkle:edSignature="PTxbSnnbVWtxqTn5br1W3orrk3mwlD9M3MP3JQTeRzuv9jkuozCWwbM56HMFR4Uv21gIMUcieT9i/0hLe0wNAA=="
+        length="7775859"
+        type="application/octet-stream" />
+    </item>
     <item>
       <title>Version 1.0.5-beta.1</title>
       <pubDate>Mon, 23 Feb 2026 16:00:45 +0000</pubDate>
