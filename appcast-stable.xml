@@ -7,6 +7,20 @@
     <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-DeskChat-Releases/main/appcast-stable.xml</link>
     <description>Updates for DeskChat for WhatsApp</description>
     <item>
+      <title>Version 1.0.10</title>
+      <pubDate>Mon, 23 Feb 2026 20:23:05 +0000</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Added</h3>
+<h3>Changed</h3>
+<h3>Fixed- Completely rewritten avatar probe for WhatsApp Web 2025 layout — the user's own profile picture is now correctly fetched via the Settings panel instead of accidentally grabbing contact photos from the chat list.</h3>]]></description>
+      <enclosure
+        url="https://github.com/ErikSonTech/ErikSon-DeskChat-Releases/releases/download/v1.0.10/DeskChat-1.0.10-stable.zip"
+        sparkle:edSignature="dG3Kp5CTagtABUn2Q2kL9wLHE82ZYeA7wQxR5fbG/n+yCi+Qa4hY7GWL0kgtJP9F+eLE4HkxALKHy4Vp80CRBA=="
+        length="7305596"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.9</title>
       <pubDate>Mon, 23 Feb 2026 20:03:34 +0000</pubDate>
       <sparkle:version>17</sparkle:version>
