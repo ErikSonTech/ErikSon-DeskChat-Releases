@@ -3,60 +3,18 @@
      xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>ErikSon Message for WhatsApp (stable)</title>
-    <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-Message-Releases/main/appcast-stable.xml</link>
-    <description>Updates for ErikSon Message for WhatsApp</description>
+    <title>DeskChat for WhatsApp (stable)</title>
+    <link>https://raw.githubusercontent.com/ErikSonTech/DeskChat-Releases/main/appcast-stable.xml</link>
+    <description>Updates for DeskChat for WhatsApp</description>
     <item>
-      <title>Version 1.0.2</title>
-      <pubDate>Wed, 18 Feb 2026 01:28:55 +0000</pubDate>
-      <sparkle:version>202602180228</sparkle:version>
-      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-      <description><![CDATA[<h3>Fixed</h3>
-<ul>
-<li>Quick Reply now inserts text into the message composer instead of the search bar</li>
-<li>Improved composer detection using WhatsApp Web's conversation-compose-box-input selector</li>
-<li>dist folder structure now uses channel/version layout for better organization</li>
-</ul>]]></description>
+      <title>Version 1.0.3</title>
+      <pubDate>Mon, 23 Feb 2026 15:50:26 +0000</pubDate>
+      <sparkle:version>202602231650</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
       <enclosure
-        url="https://github.com/ErikSonTech/ErikSon-Message-Releases/releases/download/v1.0.2/ErikSon.Message-1.0.2-stable.zip"
-        sparkle:edSignature="dHo6x9CmFUwee+vu4xUl+0leAY49U35/ZBg4Of2mI6CdVFDUGZXmB1NxWNM6aDyZwAD6x4EZFdJc60+UMsnXDg=="
-        length="6787328"
-        type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Version 1.0.1</title>
-      <pubDate>Tue, 17 Feb 2026 22:54:24 +0000</pubDate>
-      <sparkle:version>202602172354</sparkle:version>
-      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-      <description><![CDATA[<h3>Added</h3>
-<ul>
-<li>Automated deploy workflow with one-command version bumping</li>
-<li>Changelog system with release notes in Sparkle update dialog</li>
-<li>Cumulative appcast history (up to 20 versions)</li>
-<li>Full release notes on GitHub Releases</li>
-<li>Comprehensive project documentation (README, release guide)</li>
-</ul>
-<h3>Changed</h3>
-<ul>
-<li>Appcast XML now includes HTML release notes in description tag</li>
-<li>GitHub Release notes now use changelog markdown instead of generic text</li>
-<li>Reorganized project structure under Sources/ directory</li>
-</ul>]]></description>
-      <enclosure
-        url="https://github.com/ErikSonTech/ErikSon-Message-Releases/releases/download/v1.0.1/ErikSon.Message-1.0.0-stable.zip"
-        sparkle:edSignature="yu/y1WJs1Irk4RZoxXcGoxK580WcPFvPlgjl2mgFwIp74wJxiVT18U0WnuBq13fTbkKdiW10w5/RjJ1v9eGFCQ=="
-        length="5033522"
-        type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Version 1.0.0</title>
-      <pubDate>Tue, 17 Feb 2026 21:58:57 +0000</pubDate>
-      <sparkle:version>202602172258</sparkle:version>
-      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-      <enclosure
-        url="https://github.com/ErikSonTech/ErikSon-Message-Releases/releases/download/v1.0.0/ErikSon.Message-1.0.0-stable.zip"
-        sparkle:edSignature="yu/y1WJs1Irk4RZoxXcGoxK580WcPFvPlgjl2mgFwIp74wJxiVT18U0WnuBq13fTbkKdiW10w5/RjJ1v9eGFCQ=="
-        length="5033522"
+        url="https://github.com/ErikSonTech/ErikSon-Message-Releases/releases/download/v1.0.3/DeskChat-1.0.3-stable.zip"
+        sparkle:edSignature="GZYBtou8Q2mkWtnoGL8xBVWuoCE1KZ+wlVxW44CRhJxordbzHrqdr5+8eE6QPg/amGoOaqHLdrX9LEvYiN8BAA=="
+        length="7775857"
         type="application/octet-stream" />
     </item>
   </channel>
