@@ -7,6 +7,32 @@
     <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-DeskChat-Releases/main/appcast-beta.xml</link>
     <description>Updates for DeskChat for WhatsApp</description>
     <item>
+      <title>Version 1.0.11-beta.2</title>
+      <pubDate>Tue, 24 Feb 2026 11:56:47 +0000</pubDate>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>1.0.11-beta.2</sparkle:shortVersionString>
+      <sparkle:channel>beta</sparkle:channel>
+      <description><![CDATA[<h3>Fixed</h3>
+<ul>
+<li>Corregida la descarga de archivos, fotos y vídeos desde WhatsApp Web (ahora funciona correctamente con blob: URLs)</li>
+<li>Corregido el bloqueo al salir de la previsualización de documentos, fotos y vídeos</li>
+<li>Corregido bloqueo potencial en DiagnosticsLogStore al acceder a logs desde el hilo principal</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Mejora significativa de velocidad en el arranque en frío (eliminada llamada de autenticación duplicada)</li>
+<li>Cambio de cuenta instantáneo gracias al pool de WebViews (ya no recarga WhatsApp Web)</li>
+<li>Reducido consumo de memoria con evicción proporcional y límite de caché en disco (500 MB)</li>
+<li>Reintentos automáticos con backoff exponencial en llamadas al servidor</li>
+<li>Programación de borradores basada en eventos en lugar de sondeo cada 20 segundos</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/ErikSonTech/ErikSon-DeskChat-Releases/releases/download/v1.0.11-beta.2-beta/DeskChat-1.0.11-beta.2-beta.zip"
+        sparkle:edSignature="BOi8r26EWVF81+VJ89b6EHsfafFsnj0l+VLQNwVZDNpxcAUPa1MysY80Qsc/O6MAyuskBzfgklTDui58lpn/BA=="
+        length="7426460"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.11-beta.1</title>
       <pubDate>Mon, 23 Feb 2026 20:23:44 +0000</pubDate>
       <sparkle:version>20</sparkle:version>
