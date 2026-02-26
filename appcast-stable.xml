@@ -7,6 +7,32 @@
     <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-DeskChat-Releases/main/appcast-stable.xml</link>
     <description>Updates for DeskChat for WhatsApp</description>
     <item>
+      <title>Version 5.1.0 (Electron)</title>
+      <pubDate>Wed, 26 Feb 2026 14:54:53 +0000</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>5.1.0</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Added</h3>
+<ul>
+<li>Complete rewrite from Swift/AppKit to Electron + React</li>
+<li>Auth system with OTP email login + subscription validation</li>
+<li>Full auto-update system with stable/beta channels</li>
+<li>Update notification overlay with download progress</li>
+<li>Updates tab in Preferences (channel picker, check button, launch-at-login)</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Architecture: whatsapp-web.js multi-account engine</li>
+<li>SQLite database (better-sqlite3) for local persistence</li>
+<li>Zustand state management + Framer Motion animations</li>
+<li>Secure token store (macOS Keychain)</li>
+</ul>]]></description>
+      <enclosure
+        url="https://github.com/ErikSonTech/ErikSon-DeskChat-Releases/releases/download/v5.1.0/DeskChat.for.WhatsApp-5.1.0-arm64-mac.zip"
+        sparkle:edSignature="WjFUzIXLHS1DDWzJfHM+dN7cy8w/Br0xKeJnf2gg5FFFoR69ln7YFYqnq+mu1sDiiQjHt/h2x7CW/JHao56mBg=="
+        length="108017016"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.14</title>
       <pubDate>Tue, 24 Feb 2026 18:39:44 +0000</pubDate>
       <sparkle:version>28</sparkle:version>
