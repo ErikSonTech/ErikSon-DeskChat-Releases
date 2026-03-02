@@ -5,6 +5,6 @@
   <channel>
     <title>DeskChat for WhatsApp (stable)</title>
     <link>https://raw.githubusercontent.com/ErikSonTech/ErikSon-DeskChat-Releases/main/appcast-stable.xml</link>
-    <description>Updates for DeskChat for WhatsApp</description>
+    <description>Baseline feed for DeskChat for WhatsApp 1.0.0 relaunch</description>
   </channel>
 </rss>
